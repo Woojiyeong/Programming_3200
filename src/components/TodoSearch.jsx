@@ -6,7 +6,7 @@ export default function TodoSearch({ searchText, setSearchText }) {
     <div className="todo-search">
       <input
         type="text"
-        placeholder="Search todos..."
+        placeholder="할 일 검색..."
         value={searchText}
         onChange={handleChange}
       />
